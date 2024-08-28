@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.choices{
+    height: 30vh;
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.choice{
+    height:200px;
+    width: 200px;
+    border: 5px transparent black;
+    border-radius: 50%;
+   background-size: contain;
+
+}
+.choice:hover{
+    border: 5px solid black;
+    cursor:pointer;
+}
+#rock{
+    background-image: url("./images/Rock.jpg");
+}
+#paper{
+    background-image: url("./images/paper.jpg");
+}
+#scissor{
+    background-image: url("./images/scissor.jpg");
+}
+.score-board{
+    height: 100px; 
+    margin-top: 80px;
+    display:flex;
+    justify-content: center;
+    gap:130px
+}
+
+.score{
+
+    font-size: 30px;
+    
+    text-align: center;
+    
+}
+#user-score, #comp-score{
+    font-size: 45px;
+}
+.msg-container{
+      margin-top: 30px;
+      
+}
+.msg{
+    background-color: #081b31;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 15px;
+   
+    
+}
